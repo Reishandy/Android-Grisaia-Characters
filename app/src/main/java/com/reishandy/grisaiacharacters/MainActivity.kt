@@ -19,7 +19,6 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.statusBarsPadding
 import androidx.compose.foundation.lazy.LazyColumn
-import androidx.compose.foundation.lazy.items
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.MaterialTheme
@@ -58,6 +57,11 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun GrisaiaApp() {
+    // Variables
+    val characters: List<Character> = Characters.characters
+    var expandedList: List<Boolean> by remember { mutableStateOf(List(characters.size) { false }) }
+
+    // Layout
     Surface(
         modifier = Modifier.fillMaxSize()
     ) {
@@ -68,8 +72,23 @@ fun GrisaiaApp() {
             LazyColumn(
                 contentPadding = it
             ) {
-                items(Characters.characters) { character ->
-                    GrisaiaCard(character)
+                items(characters.size) { index ->
+                    val expanded: Boolean = expandedList[index]
+                    val color by animateColorAsState(
+                        targetValue = if (expanded) MaterialTheme.colorScheme.inverseSurface
+                        else MaterialTheme.colorScheme.surface,
+                    )
+
+                    GrisaiaCard(
+                        expanded = expanded,
+                        color = color,
+                        onClick = {
+                            expandedList = expandedList.toMutableList().apply {
+                                this[index] = !this[index]
+                            }
+                        },
+                        character = characters[index]
+                    )
                 }
             }
         }
@@ -100,15 +119,12 @@ fun GrisaiaTopBar(modifier: Modifier = Modifier) {
 
 @Composable
 fun GrisaiaCard(
+    expanded: Boolean,
+    color: androidx.compose.ui.graphics.Color,
+    onClick: () -> Unit,
     character: Character,
     modifier: Modifier = Modifier
 ) {
-    var expanded by remember { mutableStateOf(false) }
-    val color by animateColorAsState(
-        targetValue = if (expanded) MaterialTheme.colorScheme.inverseSurface
-        else MaterialTheme.colorScheme.surface,
-    )
-
     Card(
         modifier = modifier
             .fillMaxWidth()
@@ -122,7 +138,7 @@ fun GrisaiaCard(
                     stiffness = Spring.StiffnessLow
                 )
             ),
-        onClick = { expanded = !expanded },
+        onClick = onClick,
         colors = CardDefaults.cardColors(containerColor = color),
         elevation = CardDefaults.cardElevation(dimensionResource(R.dimen.card_elevation))
     ) {
