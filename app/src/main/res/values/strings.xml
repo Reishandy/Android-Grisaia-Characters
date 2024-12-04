@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Grisaia Characters</string>
+    <string name="main_charachter">Main Charachter</string>
+    <string name="side_charachter">Side Charachter</string>
+    <string name="antagonist_charachter">Antagonist</string>
+
+    <string name="name_yuuji">Kazami Yuuji</string>
+    <string name="name_yumiko">Sakaki Yumiko</string>
+    <string name="name_michiru">Matsushima Michiru</string>
+    <string name="name_sachi">Komine Sachi</string>
+    <string name="name_amane">Suō Amane</string>
+    <string name="name_makina">Irisu Makina</string>
+    <string name="name_yuria">Harudera Yuria</string>
+    <string name="name_chizuru">Tachibana Chizuru</string>
+    <string name="name_nyanmel">Nyanmel</string>
+    <string name="name_kazuki">Kazami Kazuki</string>
+    <string name="name_asako">Kusakabe Asako</string>
+    <string name="name_milliela">Milliela "Millie" Stanfield</string>
+    <string name="name_chiara">Chiara Farrell</string>
+    <string name="name_zoey">Zoey Graham</string>
+    <string name="name_robert">Robert Wallson</string>
+    <string name="name_dupont">Du Pont</string>
+    <string name="name_oslo">Heath Oslo</string>
+
+    <string name="description_yuuji">is the main protagonist of Grisaia no Kajitsu. He is a second-year student at Mihama Academy who is known as "Ace number 9029", receiving this name after his master, a former assassin for a Japanese government agency and black ops employed by Ichigaya, passed away. Growing tired of his aimless existence, he desires a normal school life.</string>
+    <string name="description_yumiko">is a second-year student at Mihama Academy. She is the daughter of Michiaki Sakaki (a "East Beach Railway Express Group" tycoon) and Misako Sakaki. she was the first student to enroll. Her defining feature is a waist-length black hair. Because of her bluntness and a hard-to-please personality, she often comes into conflict with her classmates. Always trying to be alone, she hardly tries to get along with others. She always carries a box cutter with her and uses it to threaten others, particularly Yuuji,</string>
+    <string name="description_michiru">is a second-year student at Mihama Academy. She is a fake tsundere with bleached blond twin tails. She has a deep interest in tsundere characteristics and tries to act like one. Her silly and energetic personality makes her the moodmaker of the class. She has encountered a lot of bad luck since her birth, but always manages to get through in one way or another.</string>
+    <string name="description_sachi">is a first-year student at Mihama Academy and the class representative. She is always seen wearing a maid uniform, except when going to school, taking a bath, or swimming. She says that everyone told her to wear one as much as possible. She was in an accident when she was little which affects her behavior deeply.</string>
+    <string name="description_amane">is a third-year student at Mihama Academy who is the Onee-san type and always takes care of others. Amane is known by her classmates, especially Makina Irisu, as a pervert (though it is partly due to the way she is interacting with Yuuji Kazami). She is constantly making dirty jokes around Yuuji and is always trying to seduce him. Her perverted antics are often emulated by Makina as well. Because her parents are born in Kyoto, she sometimes speaks with a Kansai dialect when flustered.</string>
+    <string name="description_makina">is a first-year student at Mihama Academy who is an innocent and carefree girl. For some unexplainable reasons, it’s hard to understand her personality. In general, she can be explained in one word, “Fool”, but sometimes her speech and behavior make people shed cold sweat. For those reasons, most of people who talk with her for 5 minutes will say “This girl is awful”. She adores Yuuji as a brother and Amane as a sister. She calls Yuuji “Onii-chan”.</string>
+    <string name="description_yuria">also known as JB, is the guardian and superior of Yuuji Kazami who is also case officer at Ichigaya. Julia enjoys flirting with Yuuji Kazami or teasing him in public in an attempt to either irritate him or give his classmates the wrong idea about their relationship and make Yuuji squirm. It\'s not that she\'s being sadistic but it\'s more of a revenge than anything thanks to his own sarcastic attitude towards her. She acts like an airhead most of the time but she is shown to be very observant.</string>
+    <string name="description_chizuru">is the principal of Mihama Academy and an acquaintance of Yuuji Kazami who is the only daughter of prefectural governor. To her, Yuuji is a benefactor of life, as he rescued her in an event in the past. Because of that reason, when Yuuji told her that he wanted to have a normal school life, she offered him the chance to enroll to Mihama Academy.</string>
+    <string name="description_nyanmel">is a stray cat that Michiru found after she transferred to Mihama Academy. Although, one can perhaps argue that he found her, it was heavily hinted that the other "Michiru" is the one who found her before Michiru\'s true personality regain her body.</string>
+    <string name="description_kazuki">is the elder sister of Yuuji Kazami who disappeared when Yuuji was ten years old. Despite her delicate and diminutive body, she is so intelligent that she can be called a genius. She is the same age as Amane Suou, both of them having attended the same school, "Takizono Private Academy", and having been part of the basketball team. She was presumed dead after a bus accident that affected Yuuji\'s and Amane\'s lives greatly.</string>
+    <string name="description_asako">was Yuuji Kazami\'s former master who took charge of raising him when his parents passed away and she had died a year before Yuuji enrolled in Mihama Academy. Asako was both harsh and sweet, capable and competent, and drilled many of her own values into Yuuji Kazami. Thanks to her job of bringing him up, he can at least act normal, but now possesses a strong wariness for the horrors of large women. </string>
+    <string name="description_milliela">is an old acquaintance of Yuuji from his days at the military. She prefers to go by the name "Millie Stan" as her actual name is too long for her to remember. She fell in love with Yuuji when he bested her in a shooting competition, although Yuuji only sees her as obnoxious, and he even punched her in the face during their first encounter.</string>
+    <string name="description_chiara">Chiara Farrell is a staff of the information at the "Company", JB\'s assistant and junior. Chiara Farrell also acts as V-9029\'s (Makina Irisu\'s) Instructor.</string>
+    <string name="description_zoey"> is the wife of Robert Wallson. She initially married him due to political reasons, but eventually ended up loving him. She made her debut in Grisaia no Rakuen and was mentioned in the Grisaia no Meikyuu anime in her father\'s photo during Yuuji\'s terrorist period.</string>
+    <string name="description_robert">a irredeemable otaku obsessed with Imouto eroge and a pivotal part of the "Bushdog Splatoon." was chosen to be in the same platoon as Yuuji and called him Yieswley instead despite learning Japanese prior to Yuuji\'s military youth. </string>
+    <string name="description_dupont">is a replica of Yuuji Kazami, created by Heath Oslo. The most apparent differences between Yuuji and Du Pont are his white hair and red/purple eyes, much more closely resembling Kazuki. This is stated to be due to genetic manipulation. He is a skilled combatant, trained in martial arts, knife fighting, and firearms, and is shown to be as skilled as Yuuji.</string>
+    <string name="description_oslo">is the main antagonist of the second and third visual novels. He was an international terrorist who took in Yuuji after the death of his parents. As a professional terrorist, it was almost impossible to track him down. He apparently ran businesses all around the globe. He possessed multiple fraud identities in America alone, all with their own SSN and pay his taxes without fail. </string>
+</resources>
