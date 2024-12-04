@@ -113,8 +113,8 @@ fun GrisaiaCard(
         modifier = modifier
             .fillMaxWidth()
             .padding(
-            horizontal = dimensionResource(R.dimen.padding),
-            vertical = dimensionResource(R.dimen.padding_small)
+                horizontal = dimensionResource(R.dimen.padding),
+                vertical = dimensionResource(R.dimen.padding_small)
             )
             .animateContentSize(
                 animationSpec = spring(
